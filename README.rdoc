@@ -1,0 +1,7 @@
+= aws-adapter
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Andy Delcambre. See LICENSE for details.
