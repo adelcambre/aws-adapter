@@ -9,8 +9,9 @@ begin
     gem.email = "adelcambre@engineyard.com"
     gem.homepage = "http://github.com/adelcambre/aws-adapter"
     gem.authors = ["Andy Delcambre"]
-
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    
+    gem.add_dependency 'ruby-hmac'
+    gem.add_dependency 'curb'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
